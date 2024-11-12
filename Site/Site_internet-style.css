@@ -1,0 +1,87 @@
+header {
+    width: 100%;
+    height: 200px; /* Ajuste la hauteur selon le rendu souhaité */
+    background-position: center; /* Centre l'image dans le header */
+    background-repeat: no-repeat; /* Évite que l'image se répète */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem; /* Ajuste cette valeur pour la taille souhaitée */
+    color: aliceblue; ; /* Met le texte en noir */
+    font-family: 'Uncial Antiqua', serif; /* Applique la police médiévale */
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    background-image: url('Logo_Projet.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.off-screen-menu {
+    background-color: rgb(34, 37, 49);
+    height: 100vh;
+    width: 100%;
+    max-width: 400px;
+    position: fixed;
+    top: 0;
+    right : -450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Unicase Antiqua', serif;
+    transition: .3s ease;
+}
+.off-screen-menu.active {
+    right: 0;
+}
+nav {
+    padding : 1rem;
+    display: flex;
+    background-color: rgb(34, 37, 49);
+}
+.ham-menu {
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    position: relative;
+}
+.ham-menu span {
+    height: 5px;
+    width: 100%;
+    background-color: #6F86FF;
+    border-radius: 25px;
+    position : absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+.ham-menu span:nth-child(1) {
+    top: 25%;
+}
+.ham-menu span:nth-child(3) {
+    top: 75%;
+}
+.ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.ham-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+.ham-menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+
+
+body {
+    background-color: rgb(34, 37, 49); /* Remplace par le chemin de ton image */
+    background-size: cover;
+}
