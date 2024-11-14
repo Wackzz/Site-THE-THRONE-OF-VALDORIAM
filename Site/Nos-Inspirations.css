@@ -1,0 +1,5 @@
+body {
+    background-color:  #380e02; /* Remplace par le chemin de ton image */
+    background-size: cover;
+    overflow-x: hidden;
+}
