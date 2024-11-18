@@ -9,6 +9,8 @@ header {
     font-size: 3rem; /* Ajuste cette valeur pour la taille souhaitée */
     color: #D4AF37; /* Met le texte en noir */
     font-family: 'Uncial Antiqua', serif; /* Applique la police médiévale */
+    position: absolute;
+    top: -20px;
 }
 .logo {
     width: 100px;
