@@ -9,6 +9,8 @@ header {
     font-size: 3rem; /* Ajuste cette valeur pour la taille souhaitée */
     color: #D4AF37; /* Met le texte en noir */
     font-family: 'Uncial Antiqua', serif; /* Applique la police médiévale */
+    position: absolute;
+    top: -20px;
 }
 .logo {
     width: 100px;
@@ -33,11 +35,42 @@ header {
     align-items: center;
     text-align: left;
     font-size: 28px;
-    font-family: 'Unicase Antiqua', serif;
+    font-family: "MedievalSharp", serif;
     transition: .3s ease;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .off-screen-menu.active {
     right: 0;
+    z-index: 1001;
+}
+.acceuil {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.acceuil.active {
+    font-size: 32px;
+}
+.apropos {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.apropos.active {
+    font-size: 32px;
+}
+.contactus {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.contactus.active {
+    font-size: 32px;
+}
+.inspire {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.inspire.active {
+    font-size: 32px;
 }
 nav {
     width: 100%;
@@ -46,6 +79,7 @@ nav {
     display: flex;
     background-color: black ;
     box-sizing: border-box;
+    position: absolute;
 }
 nav .logo {
     position: absolute;
@@ -54,8 +88,10 @@ nav .logo {
 .ham-menu {
     height: 50px;
     width: 50px;
-    margin-left: auto;
-    position: relative;
+    right: 15px;
+    top: 45px;
+    position: fixed;
+    z-index: 1002;
 }
 .ham-menu span {
     height: 5px;
@@ -66,16 +102,20 @@ nav .logo {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 1002;
     transition: .3s ease;
 }
 .ham-menu span:nth-child(1) {
     top: 25%;
+    z-index: 1002;
 }
 .ham-menu span:nth-child(3) {
     top: 75%;
+    z-index: 1002;
 }
 .ham-menu.active span:nth-child(1) {
     top: 50%;
+    z-index: 1002;
     transform: translate(-50%, -50%) rotate(45deg);
 }
 .ham-menu.active span:nth-child(2) {
@@ -83,6 +123,7 @@ nav .logo {
 }
 .ham-menu.active span:nth-child(3) {
     top: 50%;
+    z-index: 1002;
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 .espace1{
@@ -97,42 +138,88 @@ nav .logo {
     color: darkgoldenrod;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    transition: 4s ease;
+}
+.TitreSynopsis.active {
+    opacity: 1;
 }
 
 .Synopsis {
     display: flex;
     width: 75%;
+    height: 18rem;
     margin: auto;
     align-items: center;
     justify-content: center;
-    font-family: 'Uncial Antiqua', serif;
     color: black;
     font-size: 25px;
-    padding: 1rem;
     border: 8px solid #8B4513;
+    padding: 1rem;
     background-image: url("fond-plancher-bois_53876-88628.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
-.Titrelore {
+
+.SynopsisTXT {
+    display: flex;
+    font-family: "Eagle Lake", monospace;
+    font-size: 18px;
+    color: black;
+    background-size: cover;
+    opacity: 0;
+    transition: 2s ease;
+}
+
+.SynopsisTXT.active {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: "Eagle Lake", monospace;
+    background-size: cover;
+    opacity: 1;
+}
+
+.TitreLore {
     display: flex;
     font-family: 'Uncial Antiqua', serif;
     font-size: 4rem;
     color: darkgoldenrod;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    transition: 4s ease;
+}
+
+.TitreLore.active {
+    opacity: 1;
 }
 
 .Lore {
     display: flex;
     width: 75%;
+    height: 18rem;
     margin: auto;
     align-items: center;
     justify-content: center;
-    font-family: 'Uncial Antiqua', serif;
-    color: black; 
-    font-size: 25px;
     padding : 1rem;
     border: 8px solid #8B4513; /* Couleur brun antique */
     background-image: url("fond-plancher-bois_53876-88628.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.LoreTXT {
+    font-family: "Eagle Lake", monospace;
+    color: black;
+    font-size: 18px;
+    opacity: 0;
+    transition: 2s ease;
+}
+.LoreTXT.active {
+    opacity: 1;
 }
 
 body {
