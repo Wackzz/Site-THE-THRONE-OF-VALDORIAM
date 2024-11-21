@@ -7,8 +7,10 @@ header {
     justify-content: center;
     align-items: center;
     font-size: 3rem; /* Ajuste cette valeur pour la taille souhaitée */
-    color: aliceblue; ; /* Met le texte en noir */
+    color: #D4AF37; /* Met le texte en noir */
     font-family: 'Uncial Antiqua', serif; /* Applique la police médiévale */
+    position: absolute;
+    top: -20px;
 }
 .logo {
     width: 100px;
@@ -20,7 +22,7 @@ header {
 }
 
 .off-screen-menu {
-    background-color: rgb(34, 37, 49);
+    background-image: url("fond-plancher-bois_53876-88628.jpg");
     height: 100vh;
     width: 100%;
     max-width: 400px;
@@ -33,42 +35,87 @@ header {
     align-items: center;
     text-align: left;
     font-size: 28px;
-    font-family: 'Unicase Antiqua', serif;
+    font-family: 'MedievalSharp', serif;
     transition: .3s ease;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .off-screen-menu.active {
     right: 0;
+    z-index: 1001;
+}
+.acceuil {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.acceuil.active {
+    font-size: 32px;
+}
+.apropos {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.apropos.active {
+    font-size: 32px;
+}
+.contactus {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.contactus.active {
+    font-size: 32px;
+}
+.inspire {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.inspire.active {
+    font-size: 32px;
 }
 nav {
+    width: 100%;
+    height: 130px;
     padding : 1rem;
     display: flex;
-    background-color: rgb(34, 37, 49);
+    background-color: black ;
+    box-sizing: border-box;
+    position: absolute;
+}
+nav .logo {
+    position: absolute;
+    left: 20px;
 }
 .ham-menu {
     height: 50px;
     width: 50px;
-    margin-left: auto;
-    position: relative;
+    right: 15px;
+    top: 45px;
+    position: fixed;
+    z-index: 1002;
 }
 .ham-menu span {
     height: 5px;
     width: 100%;
-    background-color: #6F86FF;
+    background-color: darkgoldenrod;
     border-radius: 25px;
     position : absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 1002;
     transition: .3s ease;
 }
 .ham-menu span:nth-child(1) {
     top: 25%;
+    z-index: 1002;
 }
 .ham-menu span:nth-child(3) {
     top: 75%;
+    z-index: 1002;
 }
 .ham-menu.active span:nth-child(1) {
     top: 50%;
+    z-index: 1002;
     transform: translate(-50%, -50%) rotate(45deg);
 }
 .ham-menu.active span:nth-child(2) {
@@ -76,12 +123,14 @@ nav {
 }
 .ham-menu.active span:nth-child(3) {
     top: 50%;
+    z-index: 1002;
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 
 
 body {
-    background-color: rgb(34, 37, 49); /* Remplace par le chemin de ton image */
+    background-color:  #380e02; /* Remplace par le chemin de ton image */
     background-size: cover;
+    overflow-x: hidden;
 }
