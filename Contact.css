@@ -21,6 +21,7 @@ header {
     border-radius: 50%;
 }
 
+
 .off-screen-menu {
     background-image: url("fond-plancher-bois_53876-88628.jpg");
     height: 100vh;
@@ -35,11 +36,12 @@ header {
     align-items: center;
     text-align: left;
     font-size: 28px;
-    font-family: 'MedievalSharp', serif;
+    font-family: "MedievalSharp", serif;
     transition: .3s ease;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .off-screen-menu.active {
     right: 0;
     z-index: 1001;

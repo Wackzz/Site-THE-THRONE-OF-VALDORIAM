@@ -126,64 +126,46 @@ nav .logo {
 }
     
 .espace1 {
-    height: 15rem;
+    height: 20rem;
     width: auto;
+}
+.link {
+    margin: auto;
+    width: 75%;
 }
 .PresentationEntreprise {
     display: flex;
     font-family: 'Uncial Antiqua', serif;
-    font-size: 4rem;
+    font-size: 40px;
     color: darkgoldenrod;
-    align-items: center;
-    justify-content: center;
-    transition: 4s ease;
-    opacity: 0;
+    position: relative;
+    transition: 0.3s ease;
+}
+.espace2 {
+    height: 2rem;
+}
+.PresentationEntreprise:visited {
+    color:darkgoldenrod;
 }
 .PresentationEntreprise.active {
-    opacity: 1;
+    font-size: 42px;
+}
+.PresentationMembre {
+    display: flex;
+    font-family: 'Uncial Antiqua', serif;
+    font-size: 40px;
+    color: darkgoldenrod;
+    position: relative;
+    transition: 0.3s ease;
+}
+.PresentationMembre:visited {
+    color:darkgoldenrod;
+}
+.PresentationMembre.active {
+    font-size: 42px;
 }
 
     
-.entreprise {
-    display: flex;
-    width: 75%;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    font-family: 'MedievalSharp', serif;
-    color: black;
-    font-size: 25px;
-    padding: 1rem;
-    border: 8px solid #8B4513;
-    background-image: url("fond-plancher-bois_53876-88628.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.Presentation_equipe {
-    display: flex;
-    font-family: 'Uncial Antiqua', serif;
-    font-size: 4rem;
-    color: darkgoldenrod;
-    align-items: center;
-    justify-content: center;
-}
-
-.equipe {
-    display: flex;
-    width: 75%;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    font-family: 'MedievalSharp', serif;
-    color: black;
-    font-size: 25px;
-    padding : 1rem;
-    border: 8px solid #8B4513; /* Couleur brun antique */
-    background-image: url("fond-plancher-bois_53876-88628.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 body {
     background-color: #380e02; /* Remplace par le chemin de ton image */

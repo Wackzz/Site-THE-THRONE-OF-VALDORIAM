@@ -9,6 +9,8 @@ header {
     font-size: 3rem; /* Ajuste cette valeur pour la taille souhaitée */
     color: #D4AF37; /* Met le texte en noir */
     font-family: 'Uncial Antiqua', serif; /* Applique la police médiévale */
+    position: absolute;
+    top: -20px;
 }
 
 .logo {
@@ -33,11 +35,42 @@ header {
     align-items: center;
     text-align: left;
     font-size: 28px;
-    font-family: 'Unicase Antiqua', serif;
+    font-family: "MedievalSharp", serif;
     transition: .3s ease;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .off-screen-menu.active {
     right: 0;
+    z-index: 1001;
+}
+.acceuil {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.acceuil.active {
+    font-size: 32px;
+}
+.apropos {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.apropos.active {
+    font-size: 32px;
+}
+.contactus {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.contactus.active {
+    font-size: 32px;
+}
+.inspire {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.inspire.active {
+    font-size: 32px;
 }
 nav {
     width: 100%;
@@ -54,8 +87,10 @@ nav .logo {
 .ham-menu {
     height: 50px;
     width: 50px;
-    margin-left: auto;
-    position: relative;
+    right: 15px;
+    top: 45px;
+    position: fixed;
+    z-index: 1002;
 }
 .ham-menu span {
     height: 5px;
@@ -66,16 +101,20 @@ nav .logo {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 1002;
     transition: .3s ease;
 }
 .ham-menu span:nth-child(1) {
     top: 25%;
+    z-index: 1002;
 }
 .ham-menu span:nth-child(3) {
     top: 75%;
+    z-index: 1002;
 }
 .ham-menu.active span:nth-child(1) {
     top: 50%;
+    z-index: 1002;
     transform: translate(-50%, -50%) rotate(45deg);
 }
 .ham-menu.active span:nth-child(2) {
@@ -83,11 +122,12 @@ nav .logo {
 }
 .ham-menu.active span:nth-child(3) {
     top: 50%;
+    z-index: 1002;
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 .espace1{
-    height: 15rem;
+    height: 12rem;
     width: auto;
 }
 
@@ -106,9 +146,9 @@ nav .logo {
     margin: auto;
     align-items: center;
     justify-content: center;
-    font-family: "MedievalSharp", serif;
+    font-family:"Eagle Lake", monospace;
     color: black;
-    font-size: 25px;
+    font-size: 18px;
     padding: 1rem;
     border: 8px solid #8B4513;
     background-image: url("fond-plancher-bois_53876-88628.jpg");

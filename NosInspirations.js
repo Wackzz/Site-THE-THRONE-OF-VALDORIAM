@@ -48,25 +48,3 @@ inspire.addEventListener('mouseenter', () => {
 inspire.addEventListener('mouseleave', () => {
     inspire.classList.remove('active');
 });
-
-
-
-
-
-
-const prezentreprise = document.querySelector('.PresentationEntreprise');
-const presentationMembre = document.querySelector('.presentationMembre');
-
-prezentreprise.addEventListener('mouseenter', () => {
-    prezentreprise.classList.add('active');
-})
-prezentreprise.addEventListener('mouseleave', () => {
-    prezentreprise.classList.remove('active');
-})
-
-presentationMembre.addEventListener('mouseenter', () => {
-    presentationMembre.classList.add('active');
-})
-presentationMembre.addEventListener('mouseleave', () => {
-    presentationMembre.classList.remove('active');
-})

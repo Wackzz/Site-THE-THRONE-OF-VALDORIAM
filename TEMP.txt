@@ -1,0 +1,117 @@
+<div class="entreprise">
+    <div class="entrepriseTXT">
+        Valdoriam Games est une société de création de jeux vidéos fondée en septembre 2024, en France, par 5 étudiants de l'EPITA, ayant pour ambition de produire un jeu vidéo sorti de leur imaginaire. L'idée est donc de créer un univers, leur univers, à partir de leur savoir-faire acquis au sein de l'école.\\
+        Étant encore une entreprise nouvelle, l'organisation cherche à se démarquer de ses concurrents à travers sa spécialisation dans le genre des Souls-like, rejoignant alors le cercle très fermé d'une communauté de joueurs avides de difficultés et de challenge, qualités que partage Valdoriam Games. \\
+        Le premier projet de l'équipe, "The Throne of Valdoriam", est l'exemple du genre de jeux que compte créer la société, désireuse de rendre hommage à des grands noms de la fiction et du jeu vidéo tels que Fromsoftware, Kentarō Miura, ou  encore d'autres équipes plus indépendantes ayant produit des œuvres qui méritent leur succès.
+
+        Le groupe s'est donc formé autour d'une idée, "The Throne of Valdoriam" et de différentes passions communes dont l'informatique, les jeux vidéos, l'apprentissage et la créativité. De cette manière chacun, au sein de Valdoriam Games, trouve naturellement son rôle et accomplit ses tâches de manière sérieuse et passionnée.
+        En effet, chacun travaille sur une problématique précise, qui avant tout lui plaît et l'intéresse. C'est la priorité de Valdoriam Games : tout le monde doit être participatif, mais avant tout fait quelque chose qui lui plaît.
+
+        Notre vision à long terme est de devenir l'entreprise ayant réussi la création d'un jeu à la hauteur de ses attentes, accompagnant chacun des acteurs du projet à travers la cohésion et le travail de groupe, permettant un apprentissage de la programmation en C\# et la collaboration dans le cadre de la réalisation d'un projet. L'objectif actuel de Valdoriam Games est de réaliser et mettre en vente la version finale du jeu "The Throne of Valdoriam" d'ici mai 2025.
+        du héros qui, de part son statut, au départ, de roturier, illustre une société médiévale certes fantastique mais aussi très réaliste, dans le sens où les intérêts de chacun priment souvent sur ceux des autres, donnant lieu à d'importants conflits d'intérêts qui prennent des proportions souvent atroces. C'est alors au protagoniste Nilhum de faire un choix, celui de restaurer l'ordre à travers le trône de l'ancien empire de Valdoriam, l'héritage lui imposant d'une certaine manière cette responsabilité.
+    </div>
+</div>
+
+
+
+<div class="equipe">
+    J'ai commencé la programmation à l'âge de 10 ans avec Scratch, et depuis, je n'ai jamais cessé de m'y intéresser et d'apprendre de nouvelles choses. C'est une discipline qui me passionne profondément, au point que j'ai décidé d'intégrer l'EPITA pour continuer à développer mes compétences. En parallèle de mes études, je suis un grand amateur de jeux vidéo. Je passe également beaucoup de temps à lire.
+    En tant que graphiste du projet, je m'occuperais de trouver les modèles 3D et 2D ainsi que les interfaces utilisateur (UI) nécessaires à la réalisation du projet "The Throne of Valdoriam", ou de les concevoir moi-même si besoin. Je prendrai en compte les informations des scénaristes et des level designers afin d'adapter les graphismes à l'ambiance souhaitée. De plus, je serai également testeur suppléant et, avec Giovanni, je m'assurerai de tester chaque nouvelle fonctionnalité implémentée pour identifier les bugs et les transmettre aux développeurs. Je veillerai également à garantir une cohérence entre les différentes parties de la carte et les entités.
+</div>
+
+<div class="Presentation_equipe">
+    Romain
+</div>
+<div class="equipe">
+    J'ai été attiré depuis tout depuis par les jeux vidéos, mon premier jeu à été TLoZ : Majora's Mask qui m'a emerveillé à cette époque puis avec les années, les jeux vidéos sont devenus ma passion, et en faire un serait un parfait objectif, c'est dans ce but que j'ai rejoint Epita.
+    J'ai donc l'honneur de participer dans ce projet nommer "The Throne of Valdoriam". Je suis le responsable en  level design, et le suppléant en Graphisme pour le projet de la compagnie de jeux Valdoriam Games. Je vais faire en sorte que les éléments du décor et les personnages s'intègrent et se mélangent de façon harmonieuse. Ma mission sera de faire en sorte de tenir les délais, de finaliser les détails (carte de la zone, aspect des monstres/PNJ) tout en regardant avec Théodore (le responsable Graphiste) pour voir si cela est réalisable.
+</div>
+
+<div class="Presentation_equipe">
+    Leewen
+</div>
+<div class="equipe">
+    Passionné de sports et de sciences, comme le badminton ou les mathématiques, j'ai pour objectif à EPITA d'approfondir mes connaissances en informatique, science qui m'a le plus séduite et je suis particulièrement heureux de pouvoir mettre en pratique ce qu'on apprend à travers la programmation mais aussi les projets que propose l'école. Mon rôle au sein de Valdoriam Games est d'être chef de projet mais aussi scénariste et responsable de la communication. J'ai pour tâche de travailler l'atmosphère et les thèmes qui vont constituer le projet <br> "The Throne of Valdoriam", à travers l'écriture de son récit, au côté de Romario Laurencena. De plus, ma mission au sein de l'équipe est la mise en valeur du groupe, mais aussi celle du jeu vidéo, à travers la création de divers outils capables de vendre le projet et les compétences de chacun, tel qu'un site internet ou encore un trailer.
+</div>
+
+<div class="Presentation_equipe">
+    Romario
+</div>
+<div class="equipe">
+    Je suis Romario, le scénariste principal de "The Throne of Valdoriam". Mon rôle est d'imaginer et de construire tout l'univers du jeu, en définissant les thèmes centraux, l'atmosphère, et les dilemmes moraux que les joueurs rencontreront. C'est à moi que revient la tâche de créer l'histoire principale ainsi que le monde fascinant dans lequel elle prend vie.<br>
+    Travailler en étroite collaboration avec l'équipe artistique et de développement est essentiel pour que tout soit cohérent, que ce soit l'univers narratif ou l'expérience de gameplay. Chaque élément doit s'imbriquer parfaitement, et je veille à ce que l'histoire que je crée soit en harmonie avec les mécaniques du jeu.<br>
+    Je ne m'arrête pas là. J'aide également à concevoir le site web du jeu, en travaillant avec Leewen, notre responsable de la communication. Ensemble, nous faisons en sorte que l'univers de "The Throne of Valdoriam" soit aussi captivant en ligne que dans le jeu.<br>
+    Ce qui me passionne le plus dans ce projet, c'est la création des différentes classes et l'élaboration de l'histoire. Imaginer les compétences, les origines, et les caractéristiques des personnages me permet de donner encore plus de profondeur à l'univers que je construis.
+</div>
+
+<div class="Presentation_equipe">
+    Giovanni
+</div>
+<div class="equipe">
+    Grand amateur de sports de combat comme le judo et de jeux vidéo, et étant passionné par l’informatique, mon but à EPITA est de renforcer mes connaissances en informatique et qui plus est en programmation. Le fait de devoir concevoir un jeu vidéo est donc pour moi une chance extraordinaire pour mettre en pratique mon apprentissage à EPITA. Dans ce projet, je suis le responsable de la partie test du jeu The Throne of Valdoriam. Mon rôle est de pousser le jeu dans ses retranchements pour identifier les défauts à corriger ou à éviter, afin de créer une expérience aboutie.
+    <br>Je suis chargé de tester toutes les fonctionnalités du jeu, des mécaniques de combat aux interactions avec l’environnement, en passant par la fluidité des animations. Je dois identifier les problèmes potentiels qui pourraient gêner l'expérience des joueurs et travaille en étroite collaboration avec les level designers pour les résoudre. Mon objectif est de m'assurer que chaque session de jeu soit plaisante et engageante, en éliminant tout ce qui pourrait briser l'immersion, comme les bugs visuels ou les déséquilibres dans la difficulté, pour sortir une version optimale de "The Throne of Valdoriam".
+</div>
+
+
+
+
+
+
+
+
+
+CSS : 
+
+
+
+.entreprise {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border: 8px solid #8B4513;
+    background-image: url("fond-plancher-bois_53876-88628.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.entrepriseTXT {
+    display: flex;
+    font-family:  "Eagle Lake", monospace;
+    color: black;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    transition: 2s ease;
+    opacity: 0;
+}
+.entrepriseTXT.active {
+    opacity: 1;
+}
+
+.Presentation_equipe {
+    display: flex;
+    font-family: 'Uncial Antiqua', serif;
+    font-size: 4rem;
+    color: darkgoldenrod;
+    align-items: center;
+    justify-content: center;
+    transition: 4s ease;
+}
+.equipe {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-family:  "Eagle Lake", monospace;
+    color: black;
+    font-size: 18px;;
+    padding : 1rem;
+    border: 8px solid #8B4513; /* Couleur brun antique */
+    background-image: url("fond-plancher-bois_53876-88628.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
