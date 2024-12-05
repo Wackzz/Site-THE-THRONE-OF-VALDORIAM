@@ -75,7 +75,7 @@ nav .logo {
     transform: translate(-50%, -50%);
     transition: .3s ease;
 }
-    
+
 .ham-menu span:nth-child(1) {
     top: 25%;
 }
@@ -93,7 +93,7 @@ nav .logo {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
 }
-    
+
 .espace1 {
     height: 15rem;
     width: auto;
@@ -107,7 +107,7 @@ nav .logo {
     justify-content: center;
 }
 
-    
+
 .entreprise {
     display: flex;
     width: 75%;
@@ -124,13 +124,16 @@ nav .logo {
     background-size: cover;
 }
 
-.Presentation_equipe {
+.Membre_equipe {
     display: flex;
     font-family: 'Uncial Antiqua', serif;
     font-size: 4rem;
     color: darkgoldenrod;
     align-items: center;
     justify-content: center;
+}
+.Membre_equipe.active {
+    opacity: 1;
 }
 
 .equipe {
@@ -147,6 +150,11 @@ nav .logo {
     background-image: url("fond-plancher-bois_53876-88628.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    opacity:0 ;
+    transition: 2s ease;
+}
+.equipe.active¨{
+    opacity: 1;
 }
 
 body {
