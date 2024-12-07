@@ -184,7 +184,8 @@ nav .logo {
 .pdptheodore {
     width: 80px; 
     height: 80px; 
-    background-image: url("Logo_Projet.png"); 
+    background-image: url("Logo_Projet.png");
+    filter: invert(100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
@@ -198,20 +199,41 @@ nav .logo {
 
 .Théodore {
     display: flex;
+    color: white;
     flex-direction: column;/* mets les elements les un en dessous des autres */
     border: 8px solid #8B4513;
-    background-image: url("fond-plancher-bois_53876-88628.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 18px;
     padding: 1rem;
     font-family: 'Uncial Antiqua', serif;
-    align-items: center; 
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
     width: 15%;
     position: relative; /* Nécessaire pour gérer les enfants absolus */
-    transition: 2s ease;
+    transition: 1s ease;
     height: 550px;
+    overflow:hidden;
+}
+
+.Théodore::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('pdp/photo_theodore.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(0) brightness(70%);
+    z-index: -1; /* Mettre en arrière-plan */
+    transition: filter 1s ease;
+}
+
+/* Quand on enlève le flou */
+.Théodore.active::before {
+    filter: blur(8px) brightness(42%);
 }
 
 .txtTheodore {
@@ -231,6 +253,7 @@ nav .logo {
     width: 80px;
     height: 80px;
     background-image: url("Logo_Projet.png");
+    filter: invert(100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -240,9 +263,9 @@ nav .logo {
 
 .Romario {
     display: flex;
+    color: white;
     flex-direction: column;/* mets les elements les un en dessous des autres */
     border: 8px solid #8B4513;
-    background-image: url("fond-plancher-bois_53876-88628.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 18px;
@@ -252,8 +275,28 @@ nav .logo {
     justify-content: center;
     width: 15%;
     position: relative; /* Nécessaire pour gérer les enfants absolus */
-    transition: 2s ease;
+    transition: 1s ease; 
     height: 550px;
+    overflow:hidden;
+}
+.Romario::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('pdp/romario_photo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(0) brightness(70%);
+    z-index: -1; /* Mettre en arrière-plan */
+    transition: filter 1s ease;
+}
+
+/* Quand on enlève le flou */
+.Romario.active::before {
+    filter: blur(8px) brightness(42%);
 }
 
 .txtRomario {
@@ -274,6 +317,7 @@ nav .logo {
     width: 80px;
     height: 80px;
     background-image: url("Logo_Projet.png");
+    filter: invert(100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -282,9 +326,9 @@ nav .logo {
 }
 .Romain {
     display: flex;
+    color: white;
     flex-direction: column;/* mets les elements les un en dessous des autres */
     border: 8px solid #8B4513;
-    background-image: url("fond-plancher-bois_53876-88628.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 18px;
@@ -294,8 +338,29 @@ nav .logo {
     justify-content: center;
     width: 15%;
     position: relative; /* Nécessaire pour gérer les enfants absolus */
-    transition: 2s ease;
+    transition: 1s ease;
     height: 550px;
+    overflow:hidden;
+}
+
+.Romain::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('pdp/romain_photofinale.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(0) brightness(70%);
+    z-index: -1; /* Mettre en arrière-plan */
+    transition: filter 1s ease;
+}
+
+/* Quand on enlève le flou */
+.Romain.active::before {
+    filter: blur(8px) brightness(42%);
 }
 
 .txtRomain {
@@ -314,6 +379,7 @@ nav .logo {
     width: 80px;
     height: 80px;
     background-image: url("Logo_Projet.png");
+    filter: invert(100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -323,9 +389,9 @@ nav .logo {
 
 .Leewen {
     display: flex;
+    color: white;
     flex-direction: column;/* mets les elements les un en dessous des autres */
     border: 8px solid #8B4513;
-    background-image: url("fond-plancher-bois_53876-88628.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 18px;
@@ -335,8 +401,29 @@ nav .logo {
     justify-content: center;
     width: 15%;
     position: relative; /* Nécessaire pour gérer les enfants absolus */
-    transition: 2s ease;
+    transition: 1s ease;
     height: 550px;
+    overflow:hidden;
+}
+
+.Leewen::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('pdp/photo_leewen.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(0) brightness(70%);
+    z-index: -1; /* Mettre en arrière-plan */
+    transition: filter 1s ease;
+}
+
+/* Quand on enlève le flou */
+.Leewen.active::before {
+    filter: blur(8px) brightness(42%);
 }
 
 .txtLeewen {
@@ -355,6 +442,7 @@ nav .logo {
     width: 80px;
     height: 80px;
     background-image: url("Logo_Projet.png");
+    filter: invert(100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -364,9 +452,9 @@ nav .logo {
 
 .Giovanni {
     display: flex;
+    color: white;
     flex-direction: column;/* mets les elements les un en dessous des autres */
     border: 8px solid #8B4513;
-    background-image: url("fond-plancher-bois_53876-88628.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 18px;
@@ -376,8 +464,29 @@ nav .logo {
     justify-content: center;
     width: 15%;
     position: relative; /* Nécessaire pour gérer les enfants absolus */
-    transition: 2s ease;
+    transition: 1s ease;
     height: 550px;
+    overflow:hidden;
+}
+
+.Giovanni::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('pdp/photo_giovanni.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(0) brightness(70%);
+    z-index: -1; /* Mettre en arrière-plan */
+    transition: filter 1s ease;
+}
+
+/* Quand on enlève le flou */
+.Giovanni.active::before {
+    filter: blur(8px) brightness(42%);
 }
 
 .txtGiovanni {
