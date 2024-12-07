@@ -46,6 +46,12 @@ header {
     right: 0;
     z-index: 1001;
 }
+.espacelink {
+    list-style-type: none;
+    height: 20px;
+    position: relative;
+    z-index: 1000;
+}
 .acceuil {
     font-size: 28px;
     transition: 0.5s;
@@ -58,6 +64,13 @@ header {
     transition: 0.5s;
 }
 .apropos.active {
+    font-size: 32px;
+}
+.apropos2 {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.apropos2.active {
     font-size: 32px;
 }
 .contactus {

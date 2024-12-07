@@ -44,6 +44,12 @@ header {
     right: 0;
     z-index: 1001;
 }
+.espacelink {
+    list-style-type: none;
+    height: 20px;
+    position: relative;
+    z-index: 1000;
+}
 .acceuil {
     font-size: 28px;
     transition: 0.5s;
@@ -56,6 +62,13 @@ header {
     transition: 0.5s;
 }
 .apropos.active {
+    font-size: 32px;
+}
+.apropos2 {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.apropos2.active {
     font-size: 32px;
 }
 .contactus {
@@ -157,13 +170,28 @@ nav .logo {
 }
 .Inspirations1 {
     display: block;
+    opacity : 0;
+    transition: 2s ease;
+}
+.Inspirations1.active {
+    opacity : 1;
 }
 .Inspirations2 {
     display: block;
+    opacity: 0;
+    transition: 2s ease;
+}
+.Inspirations2.active {
+    opacity : 1;
 }
 .Inspirations3 {
     display: block;
+    opacity: 0;
+    transition: 2s ease;
  }
+.Inspirations3.active{
+    opacity : 1;
+}
 .espaceNosInspirations {
     height: 30px;
 }

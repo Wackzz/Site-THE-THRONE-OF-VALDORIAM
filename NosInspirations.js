@@ -19,6 +19,7 @@ document.addEventListener('click', (event) => {
 
 const acceuil = document.querySelector('.acceuil');
 const apropos = document.querySelector('.apropos');
+const apropos2 = document.querySelector('.apropos2');
 const contactus = document.querySelector('.contactus');
 const inspire = document.querySelector('.inspire');
 acceuil.addEventListener('mouseenter', () => {
@@ -35,6 +36,13 @@ apropos.addEventListener('mouseleave', () => {
     apropos.classList.remove('active');
 });
 
+apropos2.addEventListener('mouseenter', () => {
+    apropos2.classList.add('active');
+});
+apropos2.addEventListener('mouseleave', () => {
+    apropos2.classList.remove('active');
+});
+
 contactus.addEventListener('mouseenter', () => {
     contactus.classList.add('active');
 });
@@ -48,3 +56,32 @@ inspire.addEventListener('mouseenter', () => {
 inspire.addEventListener('mouseleave', () => {
     inspire.classList.remove('active');
 });
+
+const Inspiration1 = document.querySelector('.Inspirations1');
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        //si l'élément est visible dans le viewport
+        if (entry.isIntersecting) {
+            setTimeout(() => {Inspiration1.classList.add('active');}, 500);
+        } else {
+            Inspiration1.classList.remove('active');
+        }
+    });
+});
+observer.observe(Inspiration1);
+
+const Inspiration2 = document.querySelector('.Inspirations2');
+const Inspiration3 = document.querySelector('.Inspirations3');
+const observer2 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        //si l'élément est visible dans le viewport
+        if (entry.isIntersecting) {
+            setTimeout(() => {Inspiration2.classList.add('active');Inspiration3.classList.add('active');}, 500);
+        } else {
+            Inspiration2.classList.remove('active');
+        }
+    });
+});
+observer2.observe(Inspiration2);
+
+

@@ -45,6 +45,12 @@ header {
     right: 0;
     z-index: 1001;
 }
+.espacelink {
+    list-style-type: none;
+    height: 20px;
+    position: relative;
+    z-index: 1000;
+}
 .acceuil {
     font-size: 28px;
     transition: 0.5s;
@@ -133,37 +139,59 @@ nav .logo {
     margin: auto;
     width: 75%;
 }
+
+.groupe {
+    display: flex;
+    font-family: 'Uncial Antiqua', serif;
+    font-size: 4rem;
+    color: darkgoldenrod;
+    align-items: center;
+    justify-content: center;
+}
 .PresentationEntreprise {
-    display: flex;
-    font-family: 'Uncial Antiqua', serif;
-    font-size: 40px;
-    color: darkgoldenrod;
-    position: relative;
-    transition: 0.3s ease;
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-family:"Eagle Lake", monospace;
+    color: black;
+    font-size: 18px;
+    padding: 1rem;
+    border: 8px solid #8B4513;
+    background-image: url("fond-plancher-bois_53876-88628.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.espace2 {
-    height: 2rem;
+
+.Paragraphe1 {
+    display: block;
+    opacity : 0;
+    transition: 2s ease;
 }
-.PresentationEntreprise:visited {
-    color:darkgoldenrod;
+
+.Paragraphe1.active {
+    opacity : 1;
 }
-.PresentationEntreprise.active {
-    font-size: 42px;
+
+.Paragraphe2 {
+    display: block;
+    opacity : 0;
+    transition: 2s ease;
 }
-.PresentationMembre {
-    display: flex;
-    font-family: 'Uncial Antiqua', serif;
-    font-size: 40px;
-    color: darkgoldenrod;
-    position: relative;
-    transition: 0.3s ease;
+.Paragraphe3 {
+    display: block;
+    opacity : 0;
+    transition: 2s ease;
 }
-.PresentationMembre:visited {
-    color:darkgoldenrod;
+.Paragraphe4 {
+    display: block;
+    opacity : 0;
+    transition: 2s ease;
 }
-.PresentationMembre.active {
-    font-size: 42px;
+.espacetxt {
+    height: 30px;
 }
+
 
     
 

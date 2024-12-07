@@ -19,6 +19,7 @@ document.addEventListener('click', (event) => {
 
 const acceuil = document.querySelector('.acceuil');
 const apropos = document.querySelector('.apropos');
+const apropos2 = document.querySelector('.apropos2');
 const contactus = document.querySelector('.contactus');
 const inspire = document.querySelector('.inspire');
 acceuil.addEventListener('mouseenter', () => {
@@ -33,6 +34,13 @@ apropos.addEventListener('mouseenter', () => {
 });
 apropos.addEventListener('mouseleave', () => {
     apropos.classList.remove('active');
+});
+
+apropos2.addEventListener('mouseenter', () => {
+    apropos2.classList.add('active');
+});
+apropos2.addEventListener('mouseleave', () => {
+    apropos2.classList.remove('active');
 });
 
 contactus.addEventListener('mouseenter', () => {
