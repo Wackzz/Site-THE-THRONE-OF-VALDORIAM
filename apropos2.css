@@ -223,7 +223,7 @@ nav .logo {
 }
 
 .txtTheodore.active {
-    max-height: 500px;
+    max-height: 350px;
     opacity: 1;
 }
 
@@ -265,7 +265,7 @@ nav .logo {
 }
 
 .txtRomario.active {
-    max-height: 500px;
+    max-height: 350px;
     opacity: 1;
 }
 
@@ -306,7 +306,7 @@ nav .logo {
     transition: 2s ease;
 }
 .txtRomain.active {
-    max-height: 500px;
+    max-height: 350px;
     opacity: 1;
 }
 
@@ -347,8 +347,9 @@ nav .logo {
     transition: 2s ease;
 }
 .txtLeewen.active {
-    max-height: 500px;
+    max-height: 350px;
     opacity: 1;
+    
 }
 .pdpgiovanni {
     width: 80px;
@@ -387,12 +388,10 @@ nav .logo {
     transition: 2s ease;
 }
 .txtGiovanni.active {
-    max-height: 500px;
+    max-height: 350px;
     opacity: 1;
+    
 }
-
-
-
 
 
 
