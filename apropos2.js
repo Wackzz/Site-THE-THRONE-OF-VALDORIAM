@@ -58,6 +58,21 @@ inspire.addEventListener('mouseleave', () => {
 });
 
 
+
+const members = document.querySelector('.members')
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        //si l'élément est visible dans le viewport
+        if (entry.isIntersecting) {
+            setTimeout(() => {members.classList.add('active');}, 500); // Délai en millisecondes (2000 ms = 2 secondes)
+
+        } else {
+        }
+    });
+});
+observer.observe(members);
+
+
 const theodore = document.querySelector('.Théodore');
 const txtTheodore = document.querySelector('.txtTheodore');
 theodore.addEventListener('click', () => {
