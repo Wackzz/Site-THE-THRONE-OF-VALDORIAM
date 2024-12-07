@@ -58,23 +58,33 @@ inspire.addEventListener('mouseleave', () => {
 });
 
 
+const theodore = document.querySelector('.Théodore');
+const txtTheodore = document.querySelector('.txtTheodore');
+theodore.addEventListener('click', () => {
+    txtTheodore.classList.toggle('active');
+})
 
+const romario = document.querySelector('.Romario');
+const txtromario = document.querySelector('.txtRomario');
+romario.addEventListener('click', () => {
+    txtromario.classList.toggle('active');
+})
 
+const romain = document.querySelector('.Romain');
+const txtromain = document.querySelector('.txtRomain');
+romain.addEventListener('click', () => {
+    txtromain.classList.toggle('active');
+})
 
+const leewen = document.querySelector('.Leewen');
+const txtleewen = document.querySelector('.txtLeewen');
 
-const p1 = document.querySelector('.Paragraphe1');
-const p2 = document.querySelector('.Paragraphe2');
-const p3 = document.querySelector('.Paragraphe3');
-const p4 = document.querySelector('.Paragraphe4'); //faire les actions
+leewen.addEventListener('click', () => {
+    txtleewen.classList.toggle('active');
+})
 
-
-const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        //si l'élément est visible dans le viewport
-        if (entry.isIntersecting) {
-            setTimeout(() => {p1.classList.add('active');p2.classList.add('active');p3.classList.add('active');p4.classList.add('active');}, 500);
-        } else {
-        }
-    });
-});
-observer.observe(p1);
+const giovanni = document.querySelector('.Giovanni');
+const txtgiovanni = document.querySelector('.txtGiovanni');
+giovanni.addEventListener('click', () => {
+    txtgiovanni.classList.toggle('active');
+})

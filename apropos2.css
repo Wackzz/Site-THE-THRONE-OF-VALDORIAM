@@ -1,0 +1,405 @@
+header {
+    width: 100%;
+    height: 200px; /* Ajuste la hauteur selon le rendu souhaité */
+    background-position: center; /* Centre l'image dans le header */
+    background-repeat: no-repeat; /* Évite que l'image se répète */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem; /* Ajuste cette valeur pour la taille souhaitée */
+    color: #D4AF37; ; /* Met le texte en noir */
+    font-family: 'Uncial Antiqua', serif; /* Applique la police médiévale */
+    position: absolute;
+    top: -20px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    background-image: url('Logo_Projet.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.off-screen-menu {
+    background-image: url("fond-plancher-bois_53876-88628.jpg");
+    height: 100vh;
+    width: 100%;
+    max-width: 400px;
+    position: fixed;
+    top: 0;
+    right : -450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 28px;
+    font-family: 'MedievalSharp', serif;
+    transition: .3s ease;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.off-screen-menu.active {
+    right: 0;
+    z-index: 1001;
+}
+.espacelink {
+    list-style-type: none;
+    height: 20px;
+    position: relative;
+    z-index: 1000;
+}
+.acceuil {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.acceuil.active {
+    font-size: 32px;
+}
+.apropos {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.apropos.active {
+    font-size: 32px;
+}
+.apropos2 {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.apropos2.active {
+    font-size: 32px;
+}
+.contactus {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.contactus.active {
+    font-size: 32px;
+}
+.inspire {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.inspire.active {
+    font-size: 32px;
+}
+nav {
+    width: 100%;
+    height: 130px;
+    padding : 1rem;
+    display: flex;
+    background-color: black ;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+nav .logo {
+    position: absolute;
+    left: 20px;
+}
+.ham-menu {
+    height: 50px;
+    width: 50px;
+    right: 15px;
+    top: 45px;
+    position: fixed;
+    z-index: 1002;
+}
+.ham-menu span {
+    height: 5px;
+    width: 100%;
+    background-color: darkgoldenrod;
+    border-radius: 25px;
+    position : absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+
+.ham-menu span:nth-child(1) {
+    top: 25%;
+}
+.ham-menu span:nth-child(3) {
+    top: 75%;
+}
+.ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.ham-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+.ham-menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.espace1 {
+    height: 20rem;
+    width: auto;
+}
+.link {
+    margin: auto;
+    width: 75%;
+}
+
+.espace1 {
+    height: 20rem;
+    width: auto;
+}
+
+.link {
+    margin: auto;
+    width: 75%;
+}
+
+.titre {
+    display: flex;
+    font-family: 'Uncial Antiqua', serif;
+    font-size: 4rem;
+    color: darkgoldenrod;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.members {
+    display: flex;
+    gap: 10px; /* espace entre les noms */
+    width: 100%;
+    margin: auto;
+    align-items: flex-start;;
+    justify-content: center;
+    font-family:'Uncial Antiqua', serif;
+    color: black;
+    font-size: 18px;
+    padding: 1rem;
+    
+}
+
+.pdptheodore {
+    width: 80px; 
+    height: 80px; 
+    background-image: url("Logo_Projet.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 50%; 
+    border: 2px solid #fff; 
+}
+
+.espacepdp {
+    margin-bottom: 10px;
+}
+
+.Théodore {
+    display: flex;
+    flex-direction: column;/* mets les elements les un en dessous des autres */
+    border: 8px solid #8B4513;
+    background-image: url("fond-plancher-bois_53876-88628.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    padding: 1rem;
+    font-family: 'Uncial Antiqua', serif;
+    align-items: center; 
+    justify-content: center; 
+    width: 15%;
+    position: relative; /* Nécessaire pour gérer les enfants absolus */
+    transition: 2s ease;
+    height: 550px;
+}
+
+.txtTheodore {
+    font-size: 15px;
+    font-family: "Eagle Lake", monospace;
+    opacity: 0; 
+    max-height: 0; /* permet à la carte d avoir la pdp en bas etc*/
+    transition: 2s ease;
+}
+
+.txtTheodore.active {
+    max-height: 500px;
+    opacity: 1;
+}
+
+.pdpromario {
+    width: 80px;
+    height: 80px;
+    background-image: url("Logo_Projet.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.Romario {
+    display: flex;
+    flex-direction: column;/* mets les elements les un en dessous des autres */
+    border: 8px solid #8B4513;
+    background-image: url("fond-plancher-bois_53876-88628.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    padding: 1rem;
+    font-family: 'Uncial Antiqua', serif;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    position: relative; /* Nécessaire pour gérer les enfants absolus */
+    transition: 2s ease;
+    height: 550px;
+}
+
+.txtRomario {
+    font-size: 15px;
+    font-family: "Eagle Lake", monospace;
+    opacity: 0;
+    max-height: 0; /* permet à la carte d avoir la pdp en bas etc*/
+    transition: 2s ease;
+}
+
+.txtRomario.active {
+    max-height: 500px;
+    opacity: 1;
+}
+
+
+.pdpromain {
+    width: 80px;
+    height: 80px;
+    background-image: url("Logo_Projet.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.Romain {
+    display: flex;
+    flex-direction: column;/* mets les elements les un en dessous des autres */
+    border: 8px solid #8B4513;
+    background-image: url("fond-plancher-bois_53876-88628.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    padding: 1rem;
+    font-family: 'Uncial Antiqua', serif;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    position: relative; /* Nécessaire pour gérer les enfants absolus */
+    transition: 2s ease;
+    height: 550px;
+}
+
+.txtRomain {
+    font-size: 15px;
+    font-family: "Eagle Lake", monospace;
+    opacity: 0;
+    max-height: 0; /* permet à la carte d avoir la pdp en bas etc*/
+    transition: 2s ease;
+}
+.txtRomain.active {
+    max-height: 500px;
+    opacity: 1;
+}
+
+.pdpleewen {
+    width: 80px;
+    height: 80px;
+    background-image: url("Logo_Projet.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.Leewen {
+    display: flex;
+    flex-direction: column;/* mets les elements les un en dessous des autres */
+    border: 8px solid #8B4513;
+    background-image: url("fond-plancher-bois_53876-88628.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    padding: 1rem;
+    font-family: 'Uncial Antiqua', serif;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    position: relative; /* Nécessaire pour gérer les enfants absolus */
+    transition: 2s ease;
+    height: 550px;
+}
+
+.txtLeewen {
+    font-size: 15px;
+    font-family: "Eagle Lake", monospace;
+    opacity: 0;
+    max-height: 0; /* permet à la carte d avoir la pdp en bas etc*/
+    transition: 2s ease;
+}
+.txtLeewen.active {
+    max-height: 500px;
+    opacity: 1;
+}
+.pdpgiovanni {
+    width: 80px;
+    height: 80px;
+    background-image: url("Logo_Projet.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.Giovanni {
+    display: flex;
+    flex-direction: column;/* mets les elements les un en dessous des autres */
+    border: 8px solid #8B4513;
+    background-image: url("fond-plancher-bois_53876-88628.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    padding: 1rem;
+    font-family: 'Uncial Antiqua', serif;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    position: relative; /* Nécessaire pour gérer les enfants absolus */
+    transition: 2s ease;
+    height: 550px;
+}
+
+.txtGiovanni {
+    font-size: 15px;
+    font-family: "Eagle Lake", monospace;
+    opacity: 0;
+    max-height: 0; /* permet à la carte d avoir la pdp en bas etc*/
+    transition: 2s ease;
+}
+.txtGiovanni.active {
+    max-height: 500px;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+body {
+    background-color: #380e02; /* Remplace par le chemin de ton image */
+    background-size: cover;
+    overflow-x: hidden;
+}

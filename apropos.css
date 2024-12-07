@@ -65,6 +65,13 @@ header {
 .apropos.active {
     font-size: 32px;
 }
+.apropos2 {
+    font-size: 28px;
+    transition: 0.5s;
+}
+.apropos2.active {
+    font-size: 32px;
+}
 .contactus {
     font-size: 28px;
     transition: 0.5s;
@@ -178,15 +185,27 @@ nav .logo {
     opacity : 0;
     transition: 2s ease;
 }
+
+.Paragraphe2.active {
+    opacity : 1;
+}
+
 .Paragraphe3 {
     display: block;
     opacity : 0;
     transition: 2s ease;
 }
+.Paragraphe3.active {
+    opacity : 1;
+}
+
 .Paragraphe4 {
     display: block;
     opacity : 0;
     transition: 2s ease;
+}
+.Paragraphe4.active {
+    opacity : 1;
 }
 .espacetxt {
     height: 30px;
