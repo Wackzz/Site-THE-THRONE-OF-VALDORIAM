@@ -148,7 +148,7 @@ nav .logo {
 }
 
 .espace1 {
-    height: 20rem;
+    height: 8rem;
     width: auto;
 }
 
@@ -217,7 +217,7 @@ nav .logo {
     width: 15%;
     position: relative; /* Nécessaire pour gérer les enfants absolus */
     transition: 1s ease;
-    height: 550px;
+    height: 500px;
     overflow:hidden;
 }
 
@@ -250,7 +250,7 @@ nav .logo {
 }
 
 .txtTheodore.active {
-    max-height: 350px;
+    max-height: 375px;
     opacity: 1;
 }
 
@@ -281,7 +281,7 @@ nav .logo {
     width: 15%;
     position: relative; /* Nécessaire pour gérer les enfants absolus */
     transition: 1s ease; 
-    height: 550px;
+    height: 500px;
     overflow:hidden;
 }
 .Romario::before {
@@ -313,7 +313,7 @@ nav .logo {
 }
 
 .txtRomario.active {
-    max-height: 350px;
+    max-height: 375px;
     opacity: 1;
 }
 
@@ -344,7 +344,7 @@ nav .logo {
     width: 15%;
     position: relative; /* Nécessaire pour gérer les enfants absolus */
     transition: 1s ease;
-    height: 550px;
+    height: 500px;
     overflow:hidden;
 }
 
@@ -376,7 +376,7 @@ nav .logo {
     transition: 2s ease;
 }
 .txtRomain.active {
-    max-height: 350px;
+    max-height: 375px;
     opacity: 1;
 }
 
@@ -407,7 +407,7 @@ nav .logo {
     width: 15%;
     position: relative; /* Nécessaire pour gérer les enfants absolus */
     transition: 1s ease;
-    height: 550px;
+    height: 500px;
     overflow:hidden;
 }
 
@@ -439,7 +439,7 @@ nav .logo {
     transition: 2s ease;
 }
 .txtLeewen.active {
-    max-height: 350px;
+    max-height: 375px;
     opacity: 1;
     
 }
@@ -470,7 +470,7 @@ nav .logo {
     width: 15%;
     position: relative; /* Nécessaire pour gérer les enfants absolus */
     transition: 1s ease;
-    height: 550px;
+    height: 500px;
     overflow:hidden;
 }
 
@@ -502,7 +502,7 @@ nav .logo {
     transition: 2s ease;
 }
 .txtGiovanni.active {
-    max-height: 350px;
+    max-height: 375px;
     opacity: 1;
     
 }
