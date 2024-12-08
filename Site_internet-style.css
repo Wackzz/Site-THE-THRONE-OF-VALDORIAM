@@ -141,8 +141,59 @@ nav .logo {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 .espace1{
-    height: 20rem;
+    height: 15rem;
     width: auto;
+}
+.speech {
+    display: flex;
+    font-family: 'Uncial Antiqua', serif;
+    font-size: 4rem;
+    color: darkgoldenrod;
+    align-items: center;
+    justify-content: center;
+}
+.dlspace {
+    height: 90px;
+}
+.espace2 {
+    height: 15rem;
+    width: auto;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 4rem;
+    color: darkgoldenrod;
+    opacity: 0;
+    transition: 60s;
+}
+
+.espace2.active {
+    opacity: 1;
+}
+
+.install {
+    display: flex;
+    width: 40%;
+    height: 20%;
+    border: #8B4513 8px solid;
+    font-family: "Eagle Lake", sans-serif;
+    font-size: 80px;
+    align-items: center;
+    justify-content: center;
+    background-image: url("fond-plancher-bois_53876-88628.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    opacity: 0;
+    transition : 8s ease;
+}
+.install.active {
+    opacity: 1;
+}
+
+.btn {
+    color: black;
 }
 
 .TitreSynopsis {

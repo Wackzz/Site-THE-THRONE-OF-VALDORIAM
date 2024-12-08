@@ -71,7 +71,6 @@ const observer = new IntersectionObserver(entries => {
         if (entry.isIntersecting) {
             TitreSynopsis.classList.add('active');
         } else {
-            TitreSynopsis.classList.remove('active');
         }
     });
 });
@@ -84,10 +83,9 @@ const observer2 = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         //si l'élément est visible dans le viewport
         if (entry.isIntersecting) {
-            setTimeout(() => {SynopsisTXT.classList.toggle('active');}, 500); // Délai en millisecondes (2000 ms = 2 secondes)
+            setTimeout(() => {SynopsisTXT.classList.add('active');}, 500); // Délai en millisecondes (2000 ms = 2 secondes)
 
         } else {
-            SynopsisTXT.classList.toggle('active');
         }
     });
 });
@@ -102,7 +100,6 @@ const observer3 = new IntersectionObserver(entries => {
         if (entry.isIntersecting) {
             TitreLore.classList.add('active');
         } else {
-            TitreLore.classList.remove('active');
         }
     });
 });
@@ -122,3 +119,17 @@ const observer4 = new IntersectionObserver(entries => {
     });
 });
 observer4.observe(Lore);
+
+const install = document.querySelector('.install')
+const fleche = document.querySelector('.espace2')
+const observer5 =  new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        //si l'élément est visible dans le viewport
+        if (entry.isIntersecting) {
+            setTimeout(() => {install.classList.add('active');fleche.classList.add('active');}, 0); // Délai en millisecondes (2000 ms = 2 secondes)
+
+        } else {
+        }
+    });
+});
+observer5.observe(install);
