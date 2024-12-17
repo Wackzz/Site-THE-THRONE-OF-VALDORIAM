@@ -144,6 +144,105 @@ nav .logo {
 
 
 
+.espace1 {
+    height: 15rem;
+    width: auto;
+}
+.ContactMail {
+    display: flex;
+    gap: 1rem; /* espace entre les noms */
+    width: 100%;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    font-family: "Eagle Lake", sans-serif;
+    color: black;
+    font-size: 18px;
+    padding: 1rem;
+    
+}
+
+.LogoMail
+{
+    background-image: url('Site/Logo Mail.png');
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+.ttMail
+{
+    color: darkgoldenrod;
+    font-size: 2rem; 
+    padding: 0; 
+    width: auto; 
+    height: auto; 
+    opacity: 0; 
+    transition: 2s ease-in-out;
+}
+.ttMail.active {
+    opacity: 1;
+}
+
+.ContactInsta 
+{
+    display: flex;
+    gap: 1rem; /* espace entre les noms */
+    width: 100%;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    font-family: "Eagle Lake", sans-serif;
+    color: black;
+    font-size: 18px;
+    padding: 1rem;
+}
+.LogoInsta {
+    background-image: url('Site/Logo Insta.png');
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+.ttInsta {
+    color: darkgoldenrod;
+    font-size: 2rem;
+    padding: 0;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 2s ease-in-out;
+}
+
+.ttInsta.active {
+    opacity: 1;
+}
+
+.LogoDiscord {
+    background-image: url('Site/Logo Discord.png');
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+.ttDiscord {
+    color: darkgoldenrod;
+    font-size: 2rem;
+    padding: 0;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 2s ease-in-out;
+}
+.ttDiscord.active {
+    opacity: 1;
+}
+
+
 body {
     background-color:  #380e02; /* Remplace par le chemin de ton image */
     background-size: cover;

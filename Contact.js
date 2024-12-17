@@ -56,3 +56,20 @@ inspire.addEventListener('mouseenter', () => {
 inspire.addEventListener('mouseleave', () => {
     inspire.classList.remove('active');
 });
+
+
+const mail = document.querySelector('.ttMail')
+const insta = document.querySelector('.ttInsta')
+const discord = document.querySelector('.ttDiscord')
+const observermail = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        //si l'élément est visible dans le viewport
+        if (entry.isIntersecting) {
+            setTimeout(() => {mail.classList.add('active');
+                insta.classList.add('active');
+                discord.classList.add('active')}, 500);
+        } else {
+        }
+    });
+});
+observermail.observe(mail);
