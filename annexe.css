@@ -21,7 +21,6 @@ header {
     border-radius: 50%;
 }
 
-
 .off-screen-menu {
     background-image: url("fond-plancher-bois_53876-88628.jpg");
     height: 100vh;
@@ -41,11 +40,11 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .off-screen-menu.active {
     right: 0;
     z-index: 1001;
 }
+
 .espacelink {
     list-style-type: none;
     height: 20px;
@@ -148,106 +147,71 @@ nav .logo {
     z-index: 1002;
     transform: translate(-50%, -50%) rotate(-45deg);
 }
-
-
-
-.espace1 {
+.espace1{
     height: 15rem;
     width: auto;
 }
-.ContactMail {
+
+.speech {
     display: flex;
-    gap: 1rem; /* espace entre les noms */
-    width: 100%;
-    margin: auto;
-    align-items: flex-start;
-    justify-content: center;
-    text-align: center;
-    font-family: "Eagle Lake", sans-serif;
-    color: black;
-    font-size: 18px;
-    padding: 1rem;
-    
-}
-
-.LogoMail
-{
-    background-image: url('Site/Logo Mail.png');
-    background-size: contain;
-    width: 50px;
-    height: 50px;
-    background-repeat: no-repeat;
-}
-
-.ttMail
-{
+    font-family: 'Uncial Antiqua', serif;
+    font-size: 4rem;
     color: darkgoldenrod;
-    font-size: 2rem; 
-    padding: 0; 
-    width: auto; 
-    height: auto; 
-    opacity: 0; 
-    transition: 2s ease-in-out;
-}
-.ttMail.active {
-    opacity: 1;
+    align-items: center;
+    justify-content: center;
 }
 
-.ContactInsta 
-{
+.dlspace {
+    height: 90px;
+}
+
+.install {
     display: flex;
-    gap: 1rem; /* espace entre les noms */
-    width: 100%;
-    margin: auto;
-    align-items: flex-start;
-    justify-content: center;
-    text-align: center;
+    width: 40%;
+    height: 20%;
+    border: #8B4513 8px solid;
     font-family: "Eagle Lake", sans-serif;
-    color: black;
-    font-size: 18px;
-    padding: 1rem;
-}
-.LogoInsta {
-    background-image: url('Site/Logo Insta.png');
-    background-size: contain;
-    width: 50px;
-    height: 50px;
+    font-size: 45px;
+    align-items: center;
+    justify-content: center;
+    background-image: url("fond-plancher-bois_53876-88628.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
-}
-.ttInsta {
-    color: darkgoldenrod;
-    font-size: 2rem;
-    padding: 0;
-    width: auto;
-    height: auto;
+    margin: auto;
     opacity: 0;
-    transition: 2s ease-in-out;
+    transition : 8s ease;
 }
-
-.ttInsta.active {
+.install.active {
     opacity: 1;
 }
 
-.LogoDiscord {
-    background-image: url('Site/Logo Discord.png');
-    background-size: contain;
-    width: 50px;
-    height: 50px;
-    background-repeat: no-repeat;
+.outilname{
+    display: flex;
+    font-family: 'Uncial Antiqua', serif;
+    font-size: 4rem;
+    color: darkgoldenrod;
+    align-items: center;
+    justify-content: center;
 }
 
-.ttDiscord {
-    color: darkgoldenrod;
-    font-size: 2rem;
-    padding: 0;
-    width: auto;
-    height: auto;
-    opacity: 0;
-    transition: 2s ease-in-out;
-}
-.ttDiscord.active {
+.outil {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 20%;
+    border: #8B4513 8px solid;
+    font-family: "Eagle Lake", sans-serif;
+    font-size: 45px;
+    align-items: center;
+    justify-content: center;
+    background-image: url("fond-plancher-bois_53876-88628.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
     opacity: 1;
+    transition : 8s ease;
 }
+
 
 
 body {

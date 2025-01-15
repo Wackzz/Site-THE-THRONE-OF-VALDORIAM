@@ -22,6 +22,7 @@ const apropos = document.querySelector('.apropos');
 const apropos2 = document.querySelector('.apropos2');
 const contactus = document.querySelector('.contactus');
 const inspire = document.querySelector('.inspire');
+const annexe = document.querySelector('.annexe');
 acceuil.addEventListener('mouseenter', () => {
     acceuil.classList.add('active');
 });
@@ -56,6 +57,12 @@ inspire.addEventListener('mouseenter', () => {
 inspire.addEventListener('mouseleave', () => {
     inspire.classList.remove('active');
 });
+annexe.addEventListener('mouseenter', () => {
+    annexe.classList.add('active');
+})
+annexe.addEventListener('mouseleave', () => {
+    annexe.classList.remove('active');
+})
 
 
 

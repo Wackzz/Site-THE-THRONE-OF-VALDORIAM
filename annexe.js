@@ -64,65 +64,16 @@ annexe.addEventListener('mouseleave', () => {
     annexe.classList.remove('active');
 })
 
-
-
-const members = document.querySelector('.members')
-const observer = new IntersectionObserver(entries => {
+const install = document.querySelector('.install')
+const fleche = document.querySelector('.espace2')
+const observer5 =  new IntersectionObserver(entries => {
     entries.forEach(entry => {
         //si l'élément est visible dans le viewport
         if (entry.isIntersecting) {
-            setTimeout(() => {members.classList.add('active');}, 500); // Délai en millisecondes (2000 ms = 2 secondes)
+            setTimeout(() => {install.classList.add('active');fleche.classList.add('active');}, 0); // Délai en millisecondes (2000 ms = 2 secondes)
 
         } else {
         }
     });
 });
-observer.observe(members);
-
-
-const theodore = document.querySelector('.Théodore');
-const txtTheodore = document.querySelector('.txtTheodore');
-theodore.addEventListener('click', () => {
-    txtTheodore.classList.toggle('active');
-    theodore.classList.toggle('active');
-})
-
-
-
-
-
-
-
-const romario = document.querySelector('.Romario');
-const txtromario = document.querySelector('.txtRomario');
-romario.addEventListener('click', () => {
-    txtromario.classList.toggle('active');
-    romario.classList.toggle('active');
-})
-
-
-
-
-
-
-const romain = document.querySelector('.Romain');
-const txtromain = document.querySelector('.txtRomain');
-romain.addEventListener('click', () => {
-    txtromain.classList.toggle('active');
-    romain.classList.toggle('active');
-})
-
-const leewen = document.querySelector('.Leewen');
-const txtleewen = document.querySelector('.txtLeewen');
-
-leewen.addEventListener('click', () => {
-    txtleewen.classList.toggle('active');
-    leewen.classList.toggle('active');
-})
-
-const giovanni = document.querySelector('.Giovanni');
-const txtgiovanni = document.querySelector('.txtGiovanni');
-giovanni.addEventListener('click', () => {
-    txtgiovanni.classList.toggle('active');
-    giovanni.classList.toggle('active');
-})
+observer5.observe(install);
