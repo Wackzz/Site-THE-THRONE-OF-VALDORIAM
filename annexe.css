@@ -179,7 +179,7 @@ nav .logo {
     background-repeat: no-repeat;
     margin: auto;
     opacity: 0;
-    transition : 8s ease;
+    transition : 3s ease;
 }
 .install.active {
     opacity: 1;
