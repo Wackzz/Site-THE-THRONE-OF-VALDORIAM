@@ -304,7 +304,7 @@ button {
     background: linear-gradient(to bottom, #E5C99E, #C29D6B); /* Dégradé marron/beige */
     color: #5B3A1D; /* Marron foncé */
     border: 2px solid #8B5E3C; /* Bordure effet cuir */
-    padding: 40px 300px;
+    padding: 40px 200px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 8px;
