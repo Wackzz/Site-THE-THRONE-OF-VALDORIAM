@@ -299,3 +299,22 @@ body {
     background-size: cover;
     overflow-x: hidden;
 }
+
+button {
+    background: linear-gradient(to bottom, #E5C99E, #C29D6B); /* Dégradé marron/beige */
+    color: #5B3A1D; /* Marron foncé */
+    border: 2px solid #8B5E3C; /* Bordure effet cuir */
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Ombre pour effet relief */
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #C29D6B, #A3754D);
+    transform: translateY(-2px); /* Légère élévation au survol */
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
+}
